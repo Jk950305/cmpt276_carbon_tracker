@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_welcome"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/naturebg"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.ray.carbontracker_flame.UI.WelcomeActivity">
+
+    <ImageView
+        android:id="@+id/line"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha="0.4"
+        android:contentDescription=""
+        app:srcCompat="@drawable/line"
+        android:layout_marginBottom="22dp"
+        android:layout_above="@+id/textView2"
+        android:layout_alignEnd="@+id/btnGetStarted" />
+
+    <Button
+        android:id="@+id/btnGetStarted"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="14dp"
+        android:text="@string/get_started"
+        android:textSize="12sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="210dp"
+        android:layout_height="303dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        app:srcCompat="@drawable/logo_welcome" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="19dp"
+        android:text="@string/track_and_calculate_your_n_carbon_footprint"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        android:layout_above="@+id/btnGetStarted"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ray.carbontracker_flame">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:name = ".App"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".UI.WelcomeActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".UI.RouteActivity" />
+
+        <fragment
+            android:name=".UI.CarbonFootprintPie"
+            android:exported="true" />
+
+        <activity android:name=".UI.MainActivity" />
+        <activity
+            android:name=".UI.CarbonFootprintActivity"
+            android:exported="true"
+            android:label="@string/title_activity_carbon_footprint"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".UI.DisplayEmissions"
+            android:label="@string/title_activity_display_emissions" />
+        <activity android:name=".UI.TransportationActivity" />
+        <activity android:name=".UI.AddCarActivity" />
+        <activity android:name=".UI.AddRouteActivity" />
+        <activity android:name=".UI.EditRouteActivity" />
+        <activity android:name=".UI.JourneyActivity" />
+        <activity android:name=".UI.SelectTransportationModeActivity" />
+        <activity android:name=".UI.AddBillActivity" />
+        <activity android:name=".UI.BillListActivity" />
+        <activity android:name=".UI.DisplayTips" />
+        <activity android:name=".UI.SettingsActivity" />
+        <activity android:name=".UI.AboutActivity" />
+        <activity android:name=".UI.NotificationActivity"></activity>
+    </application>
+
+</manifest>

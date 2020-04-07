@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ray.carbontracker_flame.UI.AddBillActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/txtStartDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:text="@string/start_date"
+                android:textSize="24sp"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="16dp" />
+
+            <EditText
+                android:id="@+id/edtStartDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:ems="10"
+                android:focusable="false"
+                android:inputType="date"
+                tools:layout_editor_absoluteX="161dp"
+                tools:layout_editor_absoluteY="2dp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/txtEndDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:text="@string/end_date"
+                android:textSize="24sp"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="69dp" />
+
+            <EditText
+                android:id="@+id/edtEndDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:ems="10"
+                android:focusable="false"
+                android:inputType="date"
+                tools:layout_editor_absoluteX="161dp"
+                tools:layout_editor_absoluteY="55dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/txtUsage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:text="@string/usage"
+                android:textSize="24sp"
+                tools:layout_editor_absoluteX="48dp"
+                tools:layout_editor_absoluteY="121dp" />
+
+            <EditText
+                android:id="@+id/edtAmountUsed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:ems="10"
+                android:hint="@string/amount_in_kw_h"
+                android:inputType="numberDecimal"
+                tools:layout_editor_absoluteX="161dp"
+                tools:layout_editor_absoluteY="107dp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/txtNumPeople"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:text="@string/number_of_people_in_your_home"
+                android:textSize="24sp"
+                tools:layout_editor_absoluteX="22dp"
+                tools:layout_editor_absoluteY="166dp" />
+
+            <EditText
+                android:id="@+id/edtNumOfPeopleInHome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:ems="10"
+                android:inputType="number"
+                tools:layout_editor_absoluteX="82dp"
+                tools:layout_editor_absoluteY="195dp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:text="@string/type_of_bill"
+                android:textSize="24sp"
+                tools:layout_editor_absoluteX="22dp"
+                tools:layout_editor_absoluteY="252dp" />
+
+            <RadioGroup
+                android:id="@+id/rdogroupBillTypes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@+id/textView6"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rdoHydro"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="11.17"
+                    android:text="@string/hydro"
+                    tools:layout_editor_absoluteX="169dp"
+                    tools:layout_editor_absoluteY="252dp" />
+
+                <RadioButton
+                    android:id="@+id/rdoNaturalGas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="18dp"
+                    android:layout_weight="1"
+                    android:text="@string/natural_gas"
+                    tools:layout_editor_absoluteX="257dp"
+                    tools:layout_editor_absoluteY="252dp" />
+            </RadioGroup>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/txtDailyEmissionsLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:text="@string/your_daily_emissions"
+                android:textSize="24sp"
+                tools:layout_editor_absoluteX="80dp"
+                tools:layout_editor_absoluteY="298dp" />
+
+            <TextView
+                android:id="@+id/txtDailyEmissionsDisplay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/txtDailyEmissionsLabel"
+                android:text=""
+                android:textAlignment="center"
+                android:textSize="24sp"
+                tools:layout_editor_absoluteX="143dp"
+                tools:layout_editor_absoluteY="327dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/btnOk_AddBill"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:text="@string/ok"
+                tools:layout_editor_absoluteX="275dp"
+                tools:layout_editor_absoluteY="442dp" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

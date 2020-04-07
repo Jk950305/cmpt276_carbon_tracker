@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:text="@string/Text_Chosen2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/model_chosen"
+        android:layout_alignBaseline="@+id/make_chosen"
+        android:layout_alignBottom="@+id/make_chosen"
+        android:layout_toEndOf="@+id/make_chosen"
+        android:layout_marginStart="43dp" />
+
+    <TextView
+        android:text="@string/Text_Chosen3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/year_chosen"
+        android:layout_alignBaseline="@+id/model_chosen"
+        android:layout_alignBottom="@+id/model_chosen"
+        android:layout_toEndOf="@+id/model_chosen"
+        android:layout_marginStart="43dp" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/model_chosen"
+        android:layout_alignParentStart="true"
+        android:id="@+id/chosen_car_list" />
+
+    <TextView
+        android:text="@string/car_chosen_msg1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/chosen_msg"
+        android:layout_marginTop="15dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="@string/Text_Chosen1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/make_chosen"
+        android:layout_marginTop="13dp"
+        android:layout_marginStart="77dp"
+        android:layout_below="@+id/chosen_msg"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

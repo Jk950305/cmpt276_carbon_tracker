@@ -1,0 +1,213 @@
+<resources>
+    <string name="app_name">Carbon Watcher</string>
+    <string name="get_started">Get Started</string>
+    <string name="display_carbon_footprint">Display Carbon Footprint</string>
+    <string name="create_new_journey">Create New Journey</string>
+    <string name="add_car">Add Transport</string>
+    <string name="text_name_addcar">Name:</string>
+    <string name="default_text_name_addcar">Enter your Car name</string>
+    <string name="transpo_msg1">Select a transportation mode from the list, or add one:</string>
+    <string name="cancel_text_addcar">Cancel</string>
+    <string name="ok_text_addcar">OK</string>
+    <string name="select_make_msg">Select Car Make:</string>
+    <string name="select_model_msg">Select Car Model:</string>
+    <string name="select_year_msg">Select Car Year</string>
+    <string name="Text_Chosen1">TextView</string>
+    <string name="Text_Chosen2">TextView</string>
+    <string name="Text_Chosen3">TextView</string>
+    <string name="car_chosen_msg1">The Make, Model, and Year that you chose:</string>
+    <string name="delete_message_btn">DELETE</string>
+    <string name="edit_message_btn">EDIT</string>
+    <string name="add_route">Add Route</string>
+    <string name="route_name">Route Name</string>
+    <string name="city_distance_km">City Distance(km)</string>
+    <string name="highway_distance_km">Highway Distance(km)</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="routeName">Route Name</string>
+    <string name="city_distance">City Distance</string>
+    <string name="highway_distance">Highway Distance</string>
+    <string name="title_activity_carbon_footprint">CarbonFootprint</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_display_emissions">DisplayEmissions</string>
+    <string name="of_co2_emissions">of CO2 Emissions</string>
+    <string name="n_a">N/A</string>
+    <string name="track_and_calculate_your_n_carbon_footprint">Track and calculate your  carbon footprint</string>
+    <string name="journey_data">Journey Data</string>
+    <string name="journey_emissions">Journey Emissions</string>
+    <string name="edit_car">Edit Car</string>
+    <string name="routes">Routes</string>
+    <string name="transportation">Transportation</string>
+    <string name="car">Car</string>
+    <string name="walking_cycling">Walking/Cycling</string>
+    <string name="bus">Bus</string>
+    <string name="skytrain">SkyTrain</string>
+    <string name="select_your_transportation_mode">Select Your Transportation Mode</string>
+    <string name="add_a_new_natural_gas_or_electricity_bill">Natural gas and electricity bills</string>
+    <string name="end_date">End Date:</string>
+    <string name="start_date">Start Date:</string>
+    <string name="usage">Usage(KwH):</string>
+    <string name="number_of_people_in_your_home">Number of people in your home:</string>
+    <string name="amount_in_kw_h">Amount in KW.h</string>
+    <string name="ok">OK</string>
+    <string name="your_daily_emissions">Your Total Emissions:</string>
+    <string name="hold_on_top_of_a_bill_to_edit_delete_it">Hold on top of a bill to edit/delete it</string>
+    <string name="add_new_bill">Add New Bill</string>
+    <string name="natural_gas">Natural Gas</string>
+    <string name="hydro">Hydro</string>
+    <string name="type_of_bill">Type Of Bill:</string>
+    <string name="add_journey">Add Journey</string>
+    <string name="display_journeys">Display Journeys</string>
+    <string name="edit_route">Edit Route</string>
+    <string name="there_are_no_tips_yet">There are no tips yet.</string>
+    <string name="no_tips_yet">No Tips yet</string>
+    <string name="emissions">Emissions</string>
+    <string name="back_to_main_menu">Back to main menu</string>
+    <string name="settings">Settings</string>
+    <string name="emissions_unit">Emissions Unit:</string>
+    <string name="tree_day_s">Tree Day(s)</string>
+    <string name="kg_s_co2">Kg(s) Co2</string>
+    <string name="apply">Apply</string>
+    <string name="courseinfo">Group Name: Flame </string>
+    <string name="appdescription">Created in 2017\nApp Version: 3.0
+    </string>
+    <string name="course_homepage" translatable="false">
+        <a href="http://www.cs.sfu.ca/CourseCentral/276/bfraser/index.html">CMPT276 Homepage</a>
+    </string>
+    <string name="about_str">ABOUT</string>
+    <string name="information_text">
+        Citation where the pictures are taken from: \n
+        1. For the Cars Icons:
+        - https://dribbble.com/shots/1038577-Car-Icons\n
+        - https://www.dreamstime.com/royalty-free-stock-photo-car-icons-white-black-isolated-background-image34900155\n
+        2. Bus icon: http://www.myiconfinder.com/icon/bus-education-learning-pictogram-raw-school-school-bus/6207\n
+        3. Train icon: http://icons.mysitemyway.com/legacy-icon/038455-glossy-black-icon-transport-travel-transportation-train8-sc43/ \n
+        4. Cycling Walking icon: http://www.watersidescrapstore.co.uk/find-contact \n
+        \n Group Name:\n
+        1. Ali Maladwala\n
+        2. SeongJin Kim (Jon)\n
+        3. Martin Xaverius Jo\n
+        4. Raymond Eng
+    </string>
+
+    <string name="this_journey_generates">This journey generates</string>
+    <string name="maybe_walk">You might be able to cut that down by walking/cycling the journey.</string>
+    <string name="maybe_bus">You might be able to cut that down by taking a bus.</string>
+    <string name="matbe_skytrain">You might be able to cut that down by taking the skytrain.</string>
+    <string name="maybe_park_and_ride">Consider translink\'s Park and Ride to avoid the traffic.</string>
+    <string name="maybe_carpool">Consider carpooling with friends to reduce your foot print.</string>
+    <string name="you_had">You had</string>
+    <string name="num_car_trips">car trips today generating</string>
+    <string name="ccombine_trips">Combining small trips into one will reduce emissions.</string>
+    <string name="combine_trips_tommorow">You might be able to cut that down by combining trips tomorrow.</string>
+    <string name="car_journey_total">car journeys total and use</string>
+    <string name="you_have">You have</string>
+    <string name="driving_car">Driving car</string>
+    <string name="reduce_to">for all journeys will reduce to</string>
+    <string name="avoid_car">Avoid driving car</string>
+    <string name="because_bad">because it has bad emission efficiency.</string>
+    <string name="you_generate">You generate</string>
+    <string name="nat_gas_tip1">per day from natural gas use. Shorter showers might help cut down emissions from hot water heater.</string>
+    <string name="natgas_tip2">per day from natural gas use. Using hydro will cut down emissions to</string>
+    <string name="natgas_tip3">per day from natural gas use. Sealing air leaks with caulk, insulation, and weather stripping to reduce heat loss.</string>
+    <string name="hydro_tip1">today from hydro use. Shorter showers might help cut down emissions from hot water heater.</string>
+    <string name="hydro_tip2">today from hydro use. Replacing incandescent lightbulbs with compact fluorescent or LED ones might help cut down emissions.</string>
+    <string name="hydro_tip3">today from hydro use. Installing solar panels on your roof will reduce the hydro emissions.</string>
+    <string name="route_name_info">Route Name:</string>
+    <string name="city_km">/City Kilometers:</string>
+    <string name="highway_km">/Highway Kilometers:</string>
+    <string name="from">From:</string>
+    <string name="ppl_used">people used</string>
+    <string name="kwh_emitted">KwH of energy and emitted</string>
+    <string name="utility_bill">UtilityBill{</string>
+    <string name="cO2PerKWHRate">cO2PerKWHRate=</string>
+    <string name="startDate">, startDate=</string>
+    <string name="enddate">, endDate=</string>
+    <string name="totalusers_emissions">, totalUsersEmissionsInKG=</string>
+    <string name="numOfDays">, numOfDays=</string>
+    <string name="dailyEmissionsRate">, dailyEmissionsRate=</string>
+    <string name="billType">, billType=</string>
+    <string name="usageInKwH">, usageInKwH=</string>
+    <string name="numOfPeopleCovered">, numOfPeopleCovered=</string>
+    <string name="displacement">displacement in Liters=</string>
+    <string name="transmission">transmission=</string>
+    <string name="cityMPG">city MPG=</string>
+    <string name="highwayMPG">highway MPG=</string>
+    <string name="fuelType">Fuel Type=</string>
+    <string name="tree_day">Tree Day</string>
+    <string name="vehicle">Vehicle:</string>
+    <string name="route">/ Route:</string>
+    <string name="date">/ Date:</string>
+    <string name="walk_cylce">Walking/Cycling</string>
+    <string name="bus_string">Bus</string>
+    <string name="skytrain_string">SkyTrain</string>
+    <string name="error">ERROR</string>
+    <string name="select_start_end_dates">Please select a start and end date</string>
+    <string name="end_date_error1">The End date must be after the start date</string>
+    <string name="missing_bill_type_error">Please Select a Type Of Bill</string>
+    <string name="please_select_bill_type">Please Select a Type Of Bill</string>
+    <string name="invalid_input">Invalid Input</string>
+    <string name="cancel_add_car">Cancelled Adding Car</string>
+    <string name="please_input_carname">Please input the name for the Car Name.</string>
+    <string name="sedan">Sedan</string>
+    <string name="sport1">Sport 1</string>
+    <string name="pickup">Pick-up</string>
+    <string name="suv">SUV</string>
+    <string name="smart1">Smart 1</string>
+    <string name="smart2">Smart 2</string>
+    <string name="sport2">Sport 2</string>
+    <string name="invalid_input_route">Invalid Input</string>
+    <string name="pie_char">PIE CHART</string>
+    <string name="rable">GRAPH</string>
+    <string name="date_picker">Date Picker</string>
+    <string name="year">year</string>
+    <string name="month">month</string>
+    <string name="day">day</string>
+    <string name="carbon_footprint">Carbon Footprint</string>
+    <string name="not_data">No Data</string>
+    <string name="carbon_footprint2">Carbon Footprint</string>
+    <string name="nodata">No Data</string>
+    <string name="transportation1">Transportation</string>
+    <string name="utilities">Utilities</string>
+    <string name="nodata2">No Data</string>
+    <string name="transportation2">Transportation</string>
+    <string name="util">Utilities</string>
+    <string name="nodata3">No Data</string>
+    <string name="Transportation">Transportation</string>
+    <string name="Utilities">Utilities</string>
+    <string name="transport">Transport</string>
+    <string name="distance">Distance</string>
+    <string name="Route">Route</string>
+    <string name="Date">Date</string>
+    <string name="Other">Other</string>
+    <string name="Walking">Walking/Cycling</string>
+
+    <string name="SkyTrain">SkyTrain</string>
+    <string name="please_click">Please click one of the Cars List shown:</string>
+    <string name="year1">year</string>
+    <string name="moth1">month</string>
+    <string name="day1">day</string>
+    <string name="invalInput">Invalid Input</string>
+    <string name="selectOptions">Select the options</string>
+    <string name="editTransportation">Edit Transportation</string>
+    <string name="editRoute">Edit Route</string>
+    <string name="editDate">Edit Date</string>
+    <string name="Delete">Delete</string>
+    <string name="EditRoute">Edit Route</string>
+    <string name="EditDate">Edit Date</string>
+    <string name="delete2">Delete</string>
+    <string name="selectOptions2">Select the options</string>
+    <string name="journeyCreatedOn">Journey is created on :</string>
+    <string name="addTransportToast">Add Transport, Journey Add/Edit</string>
+    <string name="BUS">Bus</string>
+    <string name="add_a_journey">Add a journey</string>
+    <string name="zero_journey">You entered 0 journeys today</string>
+    <string name="add_gas_bill">Add {hydro, natural gas} bill</string>
+    <string name="more_than_month">You have not entered over 1.5 months</string>
+    <string name="add_more_journeys">Add more journeys</string>
+    <string name="you_entered">You entered </string>
+    <string name="journeys_today"> journeys today</string>
+
+</resources>

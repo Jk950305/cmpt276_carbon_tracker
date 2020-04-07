@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="16dp">
+
+    <com.github.mikephil.charting.charts.HorizontalBarChart
+        android:id="@+id/graph"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="48dp"
+        android:paddingTop="32dp" />
+
+    <Button
+        android:id="@+id/days28_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/days365_btn"
+        android:text="28 Days" />
+
+    <Button
+        android:id="@+id/days365_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/days28_btn"
+        android:layout_alignParentEnd="true"
+        android:text="365 Days" />
+
+</RelativeLayout>

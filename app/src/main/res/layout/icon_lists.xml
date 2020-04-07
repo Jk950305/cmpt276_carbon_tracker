@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/icar1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="13dp"
+        android:id="@+id/choose_image_icon"
+        android:minHeight="85dp"
+        android:minWidth="85dp"
+        android:maxWidth="90dp"
+        android:maxHeight="90dp" />
+
+    <TextView
+        android:text="Car's Icon Description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/choose_image_icon"
+        android:layout_toEndOf="@+id/choose_image_icon"
+        android:layout_marginTop="29dp"
+        android:id="@+id/text_iconcars" />
+</RelativeLayout>

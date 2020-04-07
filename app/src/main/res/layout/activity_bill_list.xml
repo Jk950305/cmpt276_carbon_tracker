@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ray.carbontracker_flame.UI.BillListActivity">
+
+    <Button
+        android:id="@+id/btnAddBill"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:text="@string/add_new_bill" />
+
+    <TextView
+        android:id="@+id/txtBillListInstructions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/hold_on_top_of_a_bill_to_edit_delete_it"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <ListView
+        android:id="@+id/lstBills"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtBillListInstructions"
+        android:layout_above="@+id/btnAddBill" />
+
+
+</RelativeLayout>
